@@ -1,0 +1,87 @@
+
+
+
+/*  A RECENT TAKE AWAY WAS THAT WE NEED TO DECLARE A MEDIA QUERY FOR ALL SCREENS, NOT JUST THE SMALL ON.....IT MADE
+A DIFFERENCE BETWEEN WHAT WORKED AND DID'NT WORK BEFORE. */ 
+
+/* cut here
+
+@media (min-width :501px) {
+    body {
+        background-color: antiquewhite;
+        color: blue;
+    }
+    
+    .heading {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .paragraph {
+        display: block;
+        width: 450px;
+        text-align: justify;
+    }
+}
+
+
+
+@media (max-width: 500px) { 
+    body {
+        background-color: black;
+        color: brown;
+    }
+
+    .paragraph {
+        display: block;
+        width: 350px;
+        text-align: justify;
+    }
+
+    .heading {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: block;
+        width: 100%;  /* Changed from 10px to 100% for better responsiveness */ /* cut here
+    }
+}
+
+cut here */
+
+
+/* WROTE CODE EARLIER AND CHAT-GPT CORRECTED IT FOR ME...
+
+body {
+    background-color: antiquewhite;
+    color: blue;
+}
+
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.paragraph {
+    display: block;
+    width: 450px;
+    text-align: justify;
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: black;
+        color: brown;
+    }
+
+    .paragraph {
+        display: block;
+        width: 350px;
+        text-align: justify;
+    }
+
+    .heading {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: block;
+        width: 100%;  /* Changed from 10px to 100% for better responsiveness *//*
+    }
+}
+
+THIS IS THE CORRECTED VERSION **************/
+
